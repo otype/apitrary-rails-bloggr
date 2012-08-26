@@ -1,0 +1,37 @@
+<h1>Listing posts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Preview</th>
+    <th>Content</th>
+    <th>Keywords</th>
+    <th>Description</th>
+    <th>Permalink</th>
+    <th>Published</th>
+    <th>Author</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @posts.each do |post| %>
+  <tr>
+    <td><%= post.title %></td>
+    <td><%= post.preview %></td>
+    <td><%= post.content %></td>
+    <td><%= post.keywords %></td>
+    <td><%= post.description %></td>
+    <td><%= post.permalink %></td>
+    <td><%= post.published %></td>
+    <td><%= post.author %></td>
+    <td><%= link_to 'Show', post %></td>
+    <td><%= link_to 'Edit', edit_post_path(post) %></td>
+    <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Post', new_post_path %>

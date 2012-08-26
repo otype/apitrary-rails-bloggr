@@ -1,0 +1,100 @@
+class Car
+include MongoMapper::Document
+key :name, String
+car = Car.new
+car.name = "Ferrari"
+car.save
+notif = Notification.new
+c.longitude = 6.0
+c.save
+c
+c.latitude = 5.00
+new Date()
+DateTime.new
+d = DateTime.new
+n.timestamp = d
+n.source = "192.168.9.1"
+h
+h.state = "OK"
+c = Coordinates.new
+ c.latitude = 5.00
+c.longitude = 5.0
+n.coordinates = c
+n.timestamp = DateTime.now
+n
+n.source = "192.168.0.1"
+h = HBeat.new
+h.save
+h = Heartbeat.new
+n = Notification.new
+c = Coordinate.new
+quit
+n.email = "hallo@lslksdfjslkdfjdl.net"
+NewsletterRecipient.all()
+n = NewsletterRecipient.new
+n.email = "hans@otype.de"
+n.save()
+nn.email = "hans@otype.de"
+nn.email = "hans@otype.com"
+nn.email = "hans@otype.net"
+nn.save9)
+nn = NewsletterRecipient.new
+nn.email = "karl@lager.net"
+nn.save()
+exit
+a = ""
+a = " "
+a.chomp
+f = File.open('dumps.json', 'ro')
+print f
+f.gets
+while (f.gets) do
+|line"
+file = File.new("dumps.json", "r")
+f = IO.read('dumps.json')
+f.lines
+f.lines.count()
+arr = f.lines.to_a
+f = File.new('dumps.json','r')
+content = f.read()
+j = JSON(content)
+j.count()
+j[0]
+j = '{"id"=>6190, "name"=>"Orange Box Busonistr. 97, ggue. Am Elsebrocken", "bsr_id"=>nil, "type"=>"OrangeBoxStation", "street"=>"Busonistr.", "street_number"=>"97", "zipcode"=>13125, "district"=>"Karow", "city"=>"Berlin", "lat"=>"52.619753", "lng"=>"13.483478", "open_hours"=>nil, "content_intro"=>nil, "is_pollutant_collection_point"=>false, "subheadline"=>nil, "wastetypes"=>[{"id"=>22, "name"=>"Wertstoffe", "bsr_id"=>"a63044de-0eb2-4074-ae3a-17f7450ba24f"}, {"id"=>30, "name"=>"Wertstoffe (Orange Box)", "bsr_id"=>"c00e8773-a04f-4223-8a3b-95fb02657083"}]}'
+jj = JSON(j)
+JSON.parse(j)
+j.to_tojson
+j.to_json
+j.to_json_raw
+require 'json'
+j = JSON('{"name" : "karl"}')
+j.keys
+j.keys.join(",")
+a = "auto"
+b = "auto"
+a == b
+c = "Auto"
+a == c
+a
+a.class
+a.empty?
+when nil
+when "hallo"
+puts "udofu"
+end
+a = nil
+case a
+puts "nil"
+a = "hallo"
+a.length
+p = Post.new
+p.title = "some title"
+Post.create(:title => "some title", :preview => "some preview", :keywords => "some, keywo", :content => "some nice content", :permalink => "http://lskdfsdkjf", :author => "hans")
+p.author = "hans"
+p.preview = "lsdkfjsdjf"
+p.content = "lsdkfjsdlf"
+p.keywords = "lksjdfoioisj, osdifsdf"
+p.description = "ioojsdf"
+p
+p.permalink = "http://sldkjfd"
+p.save
