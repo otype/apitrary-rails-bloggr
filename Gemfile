@@ -3,10 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'pg'
 
-git "git://github.com/seancribbs/ripple.git" do
-  gem 'ripple'
-end
-
 gem 'excon'     #=> faster http
 gem 'yajl-ruby' #=> faster json
 
@@ -24,6 +20,7 @@ gem 'jquery-rails'
 
 # Use unicorn as the app server
 # gem 'unicorn'
+gem 'thin'
 
 # Deploy with Capistrano
 # gem 'capistrano'
