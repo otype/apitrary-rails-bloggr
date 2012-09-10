@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   http_basic_authenticate_with :name => "apitrary-blog-user",
-                               #:password => "test",
+  ##                             :password => "test",
                                :password => "shi1Fozee}ngieye8ro8ieCei7rei(",
                                :except => [:index, :show]
 
@@ -9,7 +9,8 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    #@posts = Post.all
+    @posts = Post.order("created_at DESC").limit(10)
 
     respond_to do |format|
       format.html # index.html.erb

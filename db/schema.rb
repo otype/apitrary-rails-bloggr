@@ -14,16 +14,16 @@
 ActiveRecord::Schema.define(:version => 20120826004109) do
 
   create_table "posts", :force => true do |t|
-    t.string   "title"
+    t.string   "title",                          :null => false
     t.text     "preview"
-    t.text     "content"
+    t.text     "content",                        :null => false
     t.string   "keywords"
     t.text     "description"
-    t.string   "permalink"
-    t.boolean  "published"
-    t.string   "author"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "permalink",                      :null => false
+    t.boolean  "published",   :default => false
+    t.string   "author",                         :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
   end
 
 end
