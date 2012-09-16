@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   http_basic_authenticate_with :name => "apitrary-blog-user",
   ##                             :password => "test",
-                               :password => "shi1Fozee}ngieye8ro8ieCei7rei(",
+                               :password => "Oxesheig4ieboB4AiRei(",
                                :except => [:index, :show]
 
   caches_page :index
